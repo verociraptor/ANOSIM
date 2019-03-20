@@ -1,0 +1,2 @@
+Prefix plugins/ANOSIM/example/
+Plugin ANOSIM inputfile filenames.txt outputfile none
