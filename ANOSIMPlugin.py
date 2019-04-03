@@ -1,7 +1,6 @@
 import skbio
 import csv
 
-
 class ANOSIMPlugin:
 
 	def input(self, filename):
@@ -13,7 +12,6 @@ class ANOSIMPlugin:
 		filenames = files.read().split()
 		files.close()
 		
-
 		self.groups = open("plugins/ANOSIM/example/"+filenames[1], "r")
 		
 		#get group names from groupfile
@@ -30,4 +28,4 @@ class ANOSIMPlugin:
 		
 
 	def output(self, filename):
-		print self.result
+		print(self.result)
