@@ -28,6 +28,6 @@ test statistic name            R
 sample size                    4
 number of groups               2
 test statistic                 1
-p-value                    0.337
+p-value                    0.346
 number of permutations       999
 Name: ANOSIM results, dtype: object
